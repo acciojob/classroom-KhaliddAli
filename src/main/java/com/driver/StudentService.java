@@ -22,7 +22,8 @@ public class StudentService {
         ArrayList<String> listOfStudents = teacherDb.pairs.getOrDefault(teacher , new ArrayList<>());
 
         listOfStudents.add(student);
-
+//        System.out.println("teacher") ;
+//        System.out.println(listOfStudents) ;
         teacherDb.pairs.put(teacher , listOfStudents);
     }
 

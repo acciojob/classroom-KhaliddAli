@@ -19,6 +19,7 @@ public class TeacherDB {
     }
 
     public ArrayList<String> getStudentsOfTeacher(String teacher) {
+//        System.out.println(pairs.getOrDefault(teacher , new ArrayList<>()));
         return pairs.getOrDefault(teacher , new ArrayList<>());
     }
 
